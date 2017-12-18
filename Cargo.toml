@@ -1,0 +1,9 @@
+[package]
+name = "rust_intro"
+version = "0.1.0"
+authors = ["rrkz"]
+
+[dependencies]
+text_io = "0.1.6"
+chrono = "0.4.0"
+time = "0.1.38"
