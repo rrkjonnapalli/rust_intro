@@ -11,8 +11,9 @@ mod flames;
 mod programmers_day;
 mod magic_sqare;
 mod lps_array;
-
+mod kmp_pattern_search;
 fn main() {
     // magic_sqare::magic_sqare();
-    lps_array::handle_lps_array();
+    // lps_array::handle_lps_array();
+    kmp_pattern_search::handle_kmp_search();
 }
