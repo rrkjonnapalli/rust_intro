@@ -10,7 +10,9 @@ mod string_remove_index;
 mod flames;
 mod programmers_day;
 mod magic_sqare;
+mod lps_array;
 
 fn main() {
     // magic_sqare::magic_sqare();
+    lps_array::handle_lps_array();
 }
