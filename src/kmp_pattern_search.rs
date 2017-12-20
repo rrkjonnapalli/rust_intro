@@ -14,7 +14,7 @@ pub fn kmp_pattern_search(text: String, pattern: String){
         }
 
         if _j == pattern_len {
-            println!("pattern found at {}", _i-_j+1);
+            println!("pattern found at {}", _i-_j);
             _j = lps[_j-1];
         }else if _i < text_len && pattern.as_bytes()[_j] != text.as_bytes()[_i] {
             if _j != 0 {
